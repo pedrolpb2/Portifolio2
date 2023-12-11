@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Pedro Duarte</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a onclick="displaySession('home')"><i class="bi bi-house"></i></a>
+            <a onclick="displaySession('conhecimentos')"><i class="bi bi-book"></i></a>
+            <a onclick="displaySession('projetos')"><i class="bi bi-pencil"></i></a>
+            <a onclick="displaySession('framaworks')"><i class="bi bi-cpu"></i></a>
+        </ul>
+        <img src="img/profile.jpg" alt="profile">
+    </nav>
+    <main>
+        <section id="home" class="home">
+            <div class="header">
+                <img src="img/profile.jpg" alt="">
+                <div>
+                    <h1>Olá, eu sou o Pedro Duarte 👋</h1>
+                    <h4>Analista Desenvolvedor de Sistemas</h4>
+                    <ul>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </ul>
+                </div>
+            </div>
+            <span>Sempre apaixonado pela tecnologia, estou em busca de oportunidades para ingressar na area de
+                desenvolvimento. <br>
+                Possuo conhecimentos em desenvolvimento backend Java, boas noções em API Rest, entre outros. Na sessão
+                projetos tem alguns projetos desenvolvidos por mim mesmo.</span>
+            <button>Entrar em Constato</button>
+        </section>
+        <section id="conhecimentos" class="conhecimentos">
+            <header>
+                <h1>Principais conhecimentos:</h1>
+                <span>Linguagem de programação Java, Spring, JPA, Maven, API Rest, SQL, HTML, CSS, noções em
+                    JavaScript</span>
+            </header>
+        </section>
+        <section id="projetos" class="projetos">
+            <h1 style="padding-bottom: 20px;">Projestos GitHub</h1>
+            <div class="container-projetos">
+                <div class="projeto">
+                    <img src="img/pront-resp.png" alt="">
+                    <h5>Sistema de cadastro de pronta resposta</h5>
+                    <a target="_newblank" href="https://github.com/pedrolpb2/pronta-resposta-frontend">
+                        <button>Ver <i class="bi bi-github"></i></button>
+                    </a>
+                </div>
+                <div class="projeto">
+                    <img src="img/contas.png" alt="">
+                    <h5>Sistema de cadastro de contas</h5>
+                    <a target="_newblank" href="https://github.com/pedrolpb2/Contas">
+                        <button>Ver <i class="bi bi-github"></i></button>
+                    </a>
+                </div>
+                <div class="projeto">
+                    <img src="img/portifolio.png" alt="">
+                    <h5>Meu Portifolio</h5>
+                    <a target="_newblank" href="https://github.com/pedrolpb2/portifolio">
+                        <button href="https://github.com/pedrolpb2/portifolio">Ver <i class="bi bi-github"></i></button>
+                    </a>
+                </div>
+                <div class="projeto">
+                    <img src="img/drogaria.png" alt="">
+                    <h5>Sistema simples drogaria</h5>
+                    <a target="_newblank" href="https://github.com/pedrolpb2/Drogaria">
+                        <button>Ver <i class="bi bi-github"></i></button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="framaworks" class="framaworks">
+            <h1>Framaworks</h1>
+            <div class="container-framaworks">
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

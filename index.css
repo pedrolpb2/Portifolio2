@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #772F2F;
+    height: 100%;
+    width: 98px;
+    box-sizing: border-box;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 0px 6px #431A1A;
+}
+
+nav ul a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+nav ul a:hover{
+    background-color: #431A1A;
+    border-radius: 30px 0px 0px 30px;
+    transition: 0.5s;
+}
+
+nav img{
+    width: 50px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 2px #ffffff;
+    position: fixed;
+    bottom: 22px;
+    left: 22px;
+}
+
+main{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+main .home{
+    display: none;
+}
+
+main .home .header{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+main .home .header img{
+    height: 250px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 5px #000000;
+}
+
+main .home button{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #431A1A;
+    color: white;
+    cursor: pointer;
+}
+
+main .conhecimentos{
+    display: none;
+}
+
+main .projetos{
+    display: none;
+}
+
+main .container-projetos{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+main .projeto{
+    padding: 8px;
+    border-radius: 30px;
+    background-color: #431A1A;
+    color: white;
+    width: 250px;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+}
+
+main .projeto img{
+    width: 250px;
+    border-radius: 30px;
+    opacity: 90%;
+}
+
+main .projeto img:hover{
+    opacity: 75%;
+    padding: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+
+main .projeto button{
+    margin-top: 10px;
+    padding: 6px 14px;
+    border-radius: 30px;
+    border: none;
+    background-color: #772F2F;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+    color: white;
+    cursor: pointer;
+}
