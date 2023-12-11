@@ -53,7 +53,7 @@ main{
 }
 
 main .home{
-    display: none;
+    display: block;
 }
 
 main .home .header{
@@ -129,4 +129,8 @@ main .projeto button{
     box-shadow: 0px 0px 0px 1px #ffffff;
     color: white;
     cursor: pointer;
+}
+
+main .framaworks{
+    display: none;
 }
